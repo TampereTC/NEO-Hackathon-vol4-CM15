@@ -1,0 +1,13 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Why API",
+        "description": "Don't make that mistake again",
+        "version": "0.0.1"
+    },
+
+    "host": "127.0.0.1:3000",
+    "schemes": [
+        "https"
+    ]
+}
