@@ -8,7 +8,7 @@ RUN  git clone https://github.com/TampereTC/NEO-Hackathon-vol4-CM15 && \
 WORKDIR NEO-Hackathon-vol4-CM15
 
 # Install project dependencies
-RUN	 npm install
+RUN npm install
 
 # If you are building your code for production
 #RUN npm install --only=production
