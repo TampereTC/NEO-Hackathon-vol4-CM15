@@ -1,6 +1,6 @@
 Quick Start Guide
 
-To run the application using docker container use following commands \n
+To run the application using docker container use following commands 
 docker run -d -p 3001:3001 -p 3000:3000 --name server daniyalmarghoob/neo-hackathon-vol4-cm15
 Now you have containerized micro-service up and running.
 Browse to http://localhost:3001 for application main route which responds simple "hello".
