@@ -1,6 +1,6 @@
 Quick Start Guide
 
-To run the application using docker container use following commands
+To run the application using docker container use following commands \n
 docker run -d -p 3001:3001 -p 3000:3000 --name server daniyalmarghoob/neo-hackathon-vol4-cm15
 Now you have containerized micro-service up and running.
 Browse to http://localhost:3001 for application main route which responds simple "hello".
@@ -9,5 +9,6 @@ In order to test the dashboard, use npm module loadtest. To import/download and 
 npm install -g loadtest
 loadtest -c 10 --rps 2000 http://localhost:3001
 You can visualize the increament in load using dashboard route.
+For more infomation read https://www.npmjs.com/package/swagger-stats
 
 
